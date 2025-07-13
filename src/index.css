@@ -25,7 +25,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-
   background-color: #23252c;
 }
 
@@ -41,18 +40,19 @@ body {
 
 .info-container h1 {
   font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.info-container span {
+  font-weight: 100;
+  color: #f3bf99;
+  margin-bottom: 0.2rem;
 }
 
 .info-container a {
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
-}
-
-.info-container span {
-  font-weight: 700;
-  color: blanchedalmond;
-  margin-bottom: 1.5rem;
 }
 
 .info-container a:hover {
