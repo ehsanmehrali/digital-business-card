@@ -13,8 +13,8 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
   line-height: 1.7;
   color: #ffffff;
   background-color: #000000;
@@ -40,10 +40,10 @@ body {
 
 .info-container h1 {
   font-size: 2.4rem;
-  font-weight: 700;
 }
 
 .info-container span {
+  font-size: 1.4rem;
   font-weight: 100;
   color: #f3bf99;
   margin-bottom: 0.2rem;
@@ -52,7 +52,7 @@ body {
 .info-container a {
   color: #ffffff;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .info-container a:hover {

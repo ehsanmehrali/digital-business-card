@@ -3,10 +3,14 @@ export default function Info() {
     <div className="info-container">
       <h1>Ehsan Mehrali</h1>
       <span>Full Stack Developer</span>
-      <a>ehsan.com</a>
+      <a>www.ehsan.com</a>
       <div className="btn-container">
-        <button className="btn">Email</button>
-        <button className="btn btn-linkedin">LinkedIn</button>
+        <button className="btn">
+          <a>Email</a>
+        </button>
+        <button className="btn btn-linkedin">
+          <a>LinkedIn</a>
+        </button>
       </div>
     </div>
   );
