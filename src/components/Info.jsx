@@ -10,14 +10,14 @@ export default function Info() {
         www.ehsan.com
       </a>
       <div className="btn-container">
-        <button className="btn">
-          <MdEmail />
+        <a className="btn">
+          <MdEmail color="black" size="1rem" />
           <span className="btn-text">Email</span>
-        </button>
-        <button className="btn btn-linkedin">
-          <ImLinkedin />
+        </a>
+        <a className="btn btn-linkedin">
+          <ImLinkedin color="white" size="1rem" />
           <span className="btn-text btn-text-linkedin">LinkedIn</span>
-        </button>
+        </a>
       </div>
     </section>
   );
