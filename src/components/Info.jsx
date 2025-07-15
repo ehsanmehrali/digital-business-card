@@ -1,6 +1,7 @@
 import { MdEmail } from "react-icons/md";
 import { ImLinkedin } from "react-icons/im";
 import About from "./About";
+import Interests from "./Interests";
 
 export default function Info() {
   return (
@@ -31,6 +32,7 @@ export default function Info() {
         </a>
       </div>
       <About />
+      <Interests />
     </section>
   );
 }
