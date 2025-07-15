@@ -140,7 +140,7 @@ a.btn-linkedin:hover {
   width: 16.125rem;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 1.25rem;
+  margin-top: 1rem;
 }
 
 .text-container h3 {
@@ -158,4 +158,24 @@ a.btn-linkedin:hover {
   line-height: 150%;
   letter-spacing: 0.0313rem;
   text-align: left;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-items: center;
+  grid-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+  border-radius: 0rem 0rem 0.4rem 0.4rem;
+  display: flex;
+  height: 4rem;
+  width: 19.8125rem;
+  justify-content: center;
+  background-color: #161619;
+}
+
+.footer-links a {
+  cursor: pointer;
 }
