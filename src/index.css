@@ -98,6 +98,7 @@ body {
 }
 
 .btn-linkedin {
+  text-decoration: none;
   background-color: #5093e2;
   color: #ffffff;
   border: none;

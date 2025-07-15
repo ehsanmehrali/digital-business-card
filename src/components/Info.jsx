@@ -1,5 +1,4 @@
-import { MdEmail } from "react-icons/md";
-import { ImLinkedin } from "react-icons/im";
+import Buttons from "./Buttons";
 import About from "./About";
 import Interests from "./Interests";
 
@@ -11,26 +10,7 @@ export default function Info() {
       <a href="https://www.ehsan.com" target="_blank" rel="noopener noreferrer">
         www.ehsan.com
       </a>
-      <div className="btn-container">
-        <a
-          href="mailto:ehsanmehrali428@gmail.com"
-          className="btn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <MdEmail color="black" size="1rem" />
-          <span className="btn-text">Email</span>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/ehsan-mehrali"
-          className="btn btn-linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <ImLinkedin color="white" size="1rem" />
-          <span className="btn-text btn-text-linkedin">LinkedIn</span>
-        </a>
-      </div>
+      <Buttons />
       <About />
       <Interests />
     </section>
