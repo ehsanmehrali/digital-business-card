@@ -1,5 +1,6 @@
 import { MdEmail } from "react-icons/md";
 import { ImLinkedin } from "react-icons/im";
+import About from "./About";
 
 export default function Info() {
   return (
@@ -29,6 +30,7 @@ export default function Info() {
           <span className="btn-text btn-text-linkedin">LinkedIn</span>
         </a>
       </div>
+      <About />
     </section>
   );
 }
