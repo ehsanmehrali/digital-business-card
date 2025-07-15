@@ -162,17 +162,13 @@ a.btn-linkedin:hover {
 }
 
 .footer-links {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  align-items: center;
-  justify-items: center;
-  grid-column-gap: 1.5rem;
-  column-gap: 1.5rem;
-  border-radius: 0rem 0rem 0.4rem 0.4rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 0rem 0rem 0.4rem 0.4rem;
   height: 4rem;
   width: 19.8125rem;
-  justify-content: center;
   background-color: #161619;
 }
 
