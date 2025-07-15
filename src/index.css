@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 3rem;
   background-color: #23252c;
   border-radius: 1rem;
 }
@@ -27,7 +27,6 @@ body {
 .info-container {
   width: 19.8125rem;
   height: 24.9375rem;
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,4 +127,9 @@ a.btn-linkedin:hover {
   background: none;
   background-color: #307bf5;
   box-shadow: 0rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  margin-bottom: -10px;
+  border-radius: 0.4rem 0.4rem 0 0;
 }
