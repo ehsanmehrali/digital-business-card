@@ -24,9 +24,13 @@ body {
   border-radius: 1rem;
 }
 
+.profile-image {
+  margin-bottom: -10px;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
 .info-container {
   width: 19.8125rem;
-  height: 24.9375rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,6 +74,7 @@ body {
   width: 16.125rem;
   justify-content: space-between;
   padding-top: 0.9375rem;
+  margin-bottom: 1.25rem;
 }
 
 .btn {
@@ -129,12 +134,7 @@ a.btn-linkedin:hover {
   box-shadow: 0rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
 }
 
-.profile-image {
-  margin-bottom: -10px;
-  border-radius: 0.4rem 0.4rem 0 0;
-}
-
-.about-container {
+.text-container {
   display: flex;
   width: 16.125rem;
   flex-direction: column;
@@ -142,16 +142,15 @@ a.btn-linkedin:hover {
   margin-top: 1.25rem;
 }
 
-.about-container h3 {
+.text-container h3 {
   font-weight: 700;
   font-size: 1.17em;
   line-height: 1.375rem;
   color: #ffffff;
-  padding-top: 0.9375rem;
   margin-bottom: 0.5rem;
 }
 
-.about-container p {
+.text-container p {
   color: #dcdcdc;
   font-weight: 400;
   font-size: 0.7rem;
