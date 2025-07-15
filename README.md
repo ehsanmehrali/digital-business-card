@@ -6,7 +6,7 @@ This is a simple digital business card project built using **React**, **Vite**, 
 
 ## 📸 Preview
 
-![Preview](./asset/Screenshot.png)
+![Preview](./src/assets/Screenshot.png)
 
 ## 🚀 Technologies Used
 
